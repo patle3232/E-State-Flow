@@ -14,7 +14,7 @@ function Hero() {
     >
       {/* Overlay */}
      <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/60 to-slate-900/20"></div>
-      <div className="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center mt-50">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center  mt-50 pb-10">
 
         {/* Left Content */}
         <div>
@@ -121,6 +121,8 @@ function Hero() {
         </div>
 
       </div>
+      {/* Bottom Gradient Fade */}
+<div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-b from-transparent to-slate-950"></div>
     </section>
   );
 }

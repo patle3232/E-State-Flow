@@ -3,6 +3,8 @@
 import Hero from "../components/Hero";
 import Stats from "../components/Stats";
 
+import FeaturedProperties from  "../components/FeaturedProperties";
+
 
 
 function Home() {
@@ -10,6 +12,7 @@ function Home() {
     <>
       <Hero />
       <Stats/>
+      <FeaturedProperties/>
 
     </>
   );
